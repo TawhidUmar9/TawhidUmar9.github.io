@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tawhid Umar | Software developer</title>
+<meta name="description" content="Tawhid Umar, final-year CSE student at BUET in Dhaka. Web, mobile and backend developer who cares about deployment, tests and security.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#0E0E0E;font-family:'Hanken Grotesk',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#0E0E0E}
+.wrap{max-width:1200px;margin:0 auto;padding-left:clamp(20px,5vw,56px);padding-right:clamp(20px,5vw,56px)}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace}
+.big{font-family:'Archivo',system-ui,sans-serif;font-stretch:118%;font-weight:800;letter-spacing:-.035em}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding:26px 0;border-bottom:2px solid #0E0E0E;font-size:14px}
+.dotc{display:inline-block;width:10px;height:10px;background:#FF4B1F;border-radius:50%;margin-right:10px;animation:blink 1.6s steps(2,start) infinite}
+h1{margin:0;font-size:clamp(40px,8.2vw,118px);line-height:.98}
+.line{display:block;overflow:hidden}
+.line span{display:block;animation:up .9s cubic-bezier(.2,.8,.2,1) both}
+.l2 span{animation-delay:.12s}.l3 span{animation-delay:.24s}
+.hero{padding-top:clamp(48px,9vw,120px);padding-bottom:clamp(56px,8vw,110px)}
+.fade{margin-top:clamp(32px,5vw,56px);display:flex;gap:32px;flex-wrap:wrap;justify-content:space-between;animation:fade 1s ease .5s both}
+.fade p{margin:0}
+.lead{flex:1 1 420px;max-width:620px;font-size:clamp(18px,2vw,22px);line-height:1.5}
+.hours{flex:0 1 300px;font-size:14px;line-height:1.7}
+section{padding-bottom:clamp(56px,8vw,110px)}
+.label{font-size:14px;margin-bottom:18px}
+.list{border-bottom:2px solid #0E0E0E}
+.row{display:flex;gap:28px;flex-wrap:wrap;padding:38px 0;border-top:2px solid #0E0E0E;text-decoration:none;color:#0E0E0E}
+a.row:hover .ttl{text-decoration:underline;text-decoration-color:#FF4B1F;text-decoration-thickness:6px;text-underline-offset:8px}
+a.row:hover .arrow{transform:translateX(10px);color:#FF4B1F}
+.num{flex:0 0 56px;font-size:15px;padding-top:12px}
+.main{flex:1 1 520px;min-width:0}
+.ttl{font-size:clamp(28px,4.4vw,54px);line-height:1.05}
+.body{margin:18px 0 0;font-size:18px;line-height:1.55;max-width:720px}
+.mine{margin:16px 0 0;font-size:17px;line-height:1.55;max-width:720px}
+.meta{margin-top:18px;font-size:13.5px;line-height:1.6}
+.arrowcol{flex:0 0 40px;padding-top:12px}
+.arrow{display:inline-block;font-size:30px;line-height:1;transition:transform .3s ease,color .3s ease}
+.tr{display:flex;gap:28px;flex-wrap:wrap;padding:26px 0;border-top:1px solid #0E0E0E}
+.tr:last-child{border-bottom:1px solid #0E0E0E}
+.when{flex:0 0 190px;font-size:14px;line-height:1.6}
+.role{font-size:26px;line-height:1.15;font-stretch:108%}
+.tr .body{margin-top:12px;font-size:17px}
+.side{margin:28px 0 0;font-size:17px;line-height:1.55;max-width:720px}
+.stack{display:flex;gap:40px;flex-wrap:wrap;border-top:2px solid #0E0E0E;padding-top:28px}
+.grp{flex:1 1 230px}
+.gname{font-size:20px;font-stretch:108%;margin-bottom:12px}
+.items{font-size:17px;line-height:1.7}
+.mail{display:inline-block;font-size:clamp(26px,5.6vw,76px);line-height:1.05;overflow-wrap:anywhere;text-decoration:none}
+.ul{background-image:linear-gradient(#FF4B1F,#FF4B1F);background-size:100% 5px;background-position:0 100%;background-repeat:no-repeat;text-decoration:none;transition:background-size .25s ease}
+.ul:hover{background-size:100% 100%}
+.links{margin-top:32px;font-size:19px;display:flex;gap:28px;flex-wrap:wrap}
+.links a{text-decoration:none}
+footer{font-size:13px;border-top:2px solid #0E0E0E;padding:20px 0 32px}
+@keyframes up{from{transform:translateY(105%)}to{transform:translateY(0)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes blink{50%{opacity:.15}}
+@media (prefers-reduced-motion:reduce){.line span,.fade,.dotc{animation:none}.arrow,.ul{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top mono">
+    <span>Tawhid Umar</span>
+    <span><span class="dotc"></span>Dhaka <span id="clock">--:--:--</span> (UTC+6)</span>
+    <span>Open to part-time remote work</span>
+  </header>
+</div>
+
+<main>
+  <div class="wrap hero">
+    <h1 class="big">
+      <span class="line"><span>I am Tawhid.</span></span>
+      <span class="line l2"><span>I like the parts</span></span>
+      <span class="line l3"><span>of software people skip.</span></span>
+    </h1>
+    <div class="fade">
+      <p class="lead">Deployments, tests, audit logs, supply-chain checks. I am a final-year CSE student at BUET in Dhaka. I write React, Python and C++ across web, mobile and backend, and I care about what happens after the code is written.</p>
+      <p class="hours mono">Part-time now, 5 to 7 hours a week.<br>10 to 15 hours a week from December.<br>Overlaps easily with India, Europe and Australia.</p>
+    </div>
+  </div>
+
+  <section class="wrap" id="work">
+    <div class="mono label">WORK</div>
+    <div class="list">
+      <a class="row" href="https://github.com/Sayjad21/agentIAM">
+        <div class="mono num">01</div>
+        <div class="main">
+          <div class="big ttl">AgentIAM</div>
+          <p class="body">Permissions and budgets for AI agents. Each agent and sub-agent carries a capability token with a spend and call limit, and every action lands in a hash-chained ledger.</p>
+          <p class="mine"><b>What I did:</b> the release pipeline with signed images and an SBOM attestation, k3s manifests checked on a live cluster, container hardening after Trivy findings, the console UI and demo scripts, and the threat model.</p>
+          <div class="mono meta">Team of three / Apache-2.0 / Python, Biscuit, Kubernetes</div>
+        </div>
+        <div class="arrowcol"><span class="arrow">&rarr;</span></div>
+      </a>
+      <a class="row" href="https://github.com/Sayjad21/Acoustic-Voice-Call-Data-Relay">
+        <div class="mono num">02</div>
+        <div class="main">
+          <div class="big ttl">Acoustic Voice-Call Data Relay</div>
+          <p class="body">Data over a phone call when the internet is down. Short payloads, like GPS coordinates or emergency codes, travel as sound over ordinary 2G voice calls.</p>
+          <p class="mine"><b>What I did:</b> the C++ plugin core for Jami: FSK modulation, framing, forward error correction and the media handler.</p>
+          <div class="mono meta">3rd place, July Hackathon 2026 / Team of three / 12 GitHub stars</div>
+        </div>
+        <div class="arrowcol"><span class="arrow">&rarr;</span></div>
+      </a>
+      <div class="row">
+        <div class="mono num">03</div>
+        <div class="main">
+          <div class="big ttl">XSRM</div>
+          <p class="body">A supplier catalogue platform for XIndex Group of companies. Create a company, add and search items, and view company details from any item. Upload a PDF catalogue and the items fill themselves in.</p>
+          <p class="mine"><b>What I did:</b> the platform itself, with OCR and the Gemini API reading the catalogues.</p>
+          <div class="mono meta">Client project / React, FastAPI</div>
+        </div>
+        <div class="arrowcol"></div>
+      </div>
+      <div class="row">
+        <div class="mono num">04</div>
+        <div class="main">
+          <div class="big ttl">ProcureNext</div>
+          <p class="body">An enterprise procurement platform, shown at a capstone design fair.</p>
+          <p class="mine"><b>What I did:</b> CI/CD, the system architecture, and the hash-chained audit log, including an admin panel that verifies the log on demand.</p>
+          <div class="mono meta">Capstone / Team of five</div>
+        </div>
+        <div class="arrowcol"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" id="experience">
+    <div class="mono label">WHERE I HAVE WORKED</div>
+    <div>
+      <div class="tr">
+        <div class="mono when">Aug 2025 to now<br>Part-time</div>
+        <div class="main">
+          <div class="big role">Full-Stack Developer, Dataghurhi</div>
+          <p class="body">Core developer on DataGhurhi, a large, externally funded BUET CSE platform for survey creation and data analysis, in a 9-member team. I built the survey part, used by 200+ people (React, Node.js and Django backends, PostgreSQL), deploy it on a university VM with Nginx and PM2, and wrote its end-to-end tests with Playwright.</p>
+        </div>
+      </div>
+      <div class="tr">
+        <div class="mono when">Aug 2025 to now<br>Part-time</div>
+        <div class="main">
+          <div class="big role">Mobile Developer, Falah</div>
+          <p class="body">Built the React Native app for Android and iOS with local SQLite storage: the main skeleton and first UI, the compass (it works from the phone sensors), the prayer tracker and the analytics.</p>
+        </div>
+      </div>
+      <div class="tr">
+        <div class="mono when">Aug 2025 to now<br>Part-time</div>
+        <div class="main">
+          <div class="big role">Research Assistant, BUET Research and Innovation Center</div>
+          <p class="body">Research and development projects led by Prof. A. B. M. Alim Al Islam, including software development and mental-health research.</p>
+        </div>
+      </div>
+      <div class="tr">
+        <div class="mono when">Feb to Apr 2026<br>Part-time</div>
+        <div class="main">
+          <div class="big role">Front End Developer, WARPO Dashboard</div>
+          <p class="body">Built the React frontend of a water-level tracking dashboard for internal use at WARPO, a Bangladesh Water Development Board project.</p>
+        </div>
+      </div>
+    </div>
+    <p class="side">On the side: a semantic analysis of user reviews of salah apps, prepared for a CHI paper, and a compiler for a subset of C, built with ANTLR for a CSE course.</p>
+  </section>
+
+  <section class="wrap" id="stack">
+    <div class="mono label">WHAT I USE</div>
+    <div class="stack">
+      <div class="grp"><div class="big gname">Web and mobile</div><div class="items">React, Next.js, React Native, TypeScript, Tailwind CSS, Playwright</div></div>
+      <div class="grp"><div class="big gname">Backend and data</div><div class="items">Python, Django, FastAPI, Node.js, PostgreSQL, MySQL, Redis</div></div>
+      <div class="grp"><div class="big gname">Infrastructure and security</div><div class="items">Docker, Kubernetes (k3s), Nginx, PM2, GitHub Actions, Trivy, SBOMs, threat modeling</div></div>
+      <div class="grp"><div class="big gname">Also</div><div class="items">C++, Java, OCR, Gemini API. Learning: AWS and Terraform.</div></div>
+    </div>
+  </section>
+
+  <section class="wrap" id="contact" style="padding-bottom:clamp(40px,6vw,72px)">
+    <div class="mono label" style="margin-bottom:22px">SAY HELLO</div>
+    <a class="big mail" href="mailto:tawhidumar.21@protonmail.com"><span class="ul">tawhidumar.21@protonmail.com</span></a>
+    <div class="links"><a href="https://github.com/TawhidUmar9"><span class="ul">github.com/TawhidUmar9</span></a></div>
+  </section>
+</main>
+
+<div class="wrap">
+  <footer class="mono">Tawhid Umar &middot; BUET CSE, class of 2027 &middot; Dhaka, Bangladesh</footer>
+</div>
+
+<script>
+(function () {
+  var el = document.getElementById('clock');
+  var fmt = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Dhaka', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+  function tick() { el.textContent = fmt.format(new Date()); }
+  tick();
+  setInterval(tick, 1000);
+})();
+</script>
+</body>
+</html>
